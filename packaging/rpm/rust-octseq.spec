@@ -3,6 +3,7 @@
 %global debug_package %{nil}
 
 %global crate octseq
+%global forgeurl0 https://github.com/NLnetLabs/octseq
 
 Name:           rust-octseq
 Version:        0.2.0
@@ -11,6 +12,7 @@ Summary:        Abstractions for types representing octet sequences
 
 License:        BSD-3-Clause
 URL:            https://crates.io/crates/octseq
+VCS:            git:%{forgeurl0}
 Source:         %{crates_source}
 
 BuildRequires:  rust-packaging >= 21
